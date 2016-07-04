@@ -1,0 +1,27 @@
+{
+  "name": "koa-mongo-books",
+  "version": "1.0.0",
+  "description": "Attempted rewrite of the Hapi Mongo tutorial in koa with monk",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stlcubsfan/koa-mongo-books.git"
+  },
+  "author": "stlcubsfan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stlcubsfan/koa-mongo-books/issues"
+  },
+  "homepage": "https://github.com/stlcubsfan/koa-mongo-books#readme",
+  "dependencies": {
+    "boom": "^3.2.2",
+    "co-monk": "^1.0.0",
+    "koa": "^1.2.0",
+    "koa-mongo": "^0.5.0",
+    "koa-router": "^5.4.0",
+    "monk": "^2.1.0"
+  }
+}
