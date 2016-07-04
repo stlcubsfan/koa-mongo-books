@@ -37,13 +37,11 @@ exports.create = function *(next) {
 
 exports.update = function *(next) {
   var input = yield parse(this);
-  console.log(input.id);
   var result = yield books.updateById(this.params.id, {
     title: input.title,
     author: input.author,
     isbn: input.isbn
   });
-  console.log(result);
   this.response.status = 204;
 
 };
